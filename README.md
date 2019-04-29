@@ -4,7 +4,8 @@ All analysis processed in a Bayesian framework.
 This app is written to be gopher tortoise survey specific - however, the general framework can be used for a variety of other line-transect surveys.
 
 Quick and dirty directions: 
-Step 1: Unzip the files
+
+Step 1: Download the ShinyTorts.zip file and unzip
 
 Step 2: Install JAGS (if not already on your computer) from https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Windows/ 
 
