@@ -1,6 +1,8 @@
 # Enhanced_LTDS
 Conventional line-transect and enhanced line-transect distance sampling shiny app 
+
 All analysis processed in a Bayesian framework. 
+
 This app is written to be gopher tortoise survey specific - however, the general framework can be used for a variety of other line-transect surveys.
 
 Quick and dirty directions: 
