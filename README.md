@@ -5,15 +5,25 @@ This app is written to be gopher tortoise survey specific - however, the general
 
 Quick and dirty directions: 
 Step 1: Unzip the files
+
 Step 2: Install JAGS (if not already on your computer) from https://sourceforge.net/projects/mcmc-jags/files/JAGS/4.x/Windows/ 
+
 Step 3: Install R-Portable into the folder ShinyTorts/dist. There is no need to open the application once it is installed. R-Portable can be downloaded here: https://sourceforge.net/projects/rportable/ 
+
 Step 4: Open the “BayesLTDS” app (Windows Batch File) to run the shiny app! It will take a little while to install packages and similar when it first opens. You can check on the progress of the app at any point by opening the textfile called “error” in the ShinyTorts/log folder. 
+
 Step 5: Try selecting the various options. Example data can be found in the ShinyTorts/app/shiny folder. 
+
 Step 6: Set the run time to the desired length of time (Note: "0" hours will still take about 10 minutes to run)
+
 Step 7: Hit the “Load Model” button – a little message should pop up saying the model is loaded.
+
 Step 8: Press “Run Model” – again, a message will appear. You can monitor the running of the chains in the “error” file in the ShinyTorts/log folder
+
 Step 9: When it finishes running, a table of parameters will appear at the bottom of the page. You will have to scroll down to see it. 
+
 Step 10: Press “Plot Size Curve” to see a bias-adjusted curve of the burrow diameter.
+
 Step 11: Navigate to ShinyTorts/app/shiny and make sure a “results_Bias_Adjusted_LTDS.csv” appeared, as well as a PDF called “Rplots”.
 
 
