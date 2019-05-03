@@ -5,7 +5,7 @@ All analysis processed in a Bayesian framework.
 
 This app is written to be gopher tortoise survey specific - however, the general framework can be used for a variety of other line-transect surveys.
 
-Quick and dirty directions: 
+Longer directions may be found inside the .zip, but here are some quick and dirty directions:
 
 Step 1: Download the ShinyTorts.zip file and unzip
 
