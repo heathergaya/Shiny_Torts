@@ -1,4 +1,7 @@
 # Shiny Torts
+
+Last updated 11-19-2019 
+
 Conventional line-transect and enhanced line-transect distance sampling shiny app 
 
 All analysis is processed in a Bayesian framework. 
