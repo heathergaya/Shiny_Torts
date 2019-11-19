@@ -17,17 +17,15 @@ Step 4: Open the “BayesLTDS” app (Windows Batch File) to run the shiny app! 
 
 Step 5: Try selecting the various options. Example data can be found in the ShinyTorts/app/shiny folder. 
 
-Step 6: Set the run time to the desired length of time (Note: "0" hours will still take about 10 minutes to run)
+Step 6: Set the run time to the desired length of time (Note: "0" hours will still take about 10-25 minutes to run)
 
 Step 7: Hit the “Load Model” button – a little message should pop up saying the model is loaded.
 
 Step 8: Press “Run Model” – again, a message will appear. You can monitor the running of the chains in the “error” file in the ShinyTorts/log folder
 
-Step 9: When it finishes running, a table of parameters will appear at the bottom of the page. You will have to scroll down to see it. 
+Step 9: When it finishes running, a table of parameters will appear as a csv file in the ShinyTorts/app/shiny folder as well as a few plots. If the parameters appear to have converged, you're good to go! Otherwise, proceed to step 10. 
 
-Step 10: Press “Plot Size Curve” to see a bias-adjusted curve of the burrow diameter.
-
-Step 11: Navigate to ShinyTorts/app/shiny and make sure a “results_Bias_Adjusted_LTDS.csv” appeared, as well as a PDF called “Rplots”.
+Step 10: Hit the "Extend Model" button and monitor progress as you did in Step 8. 
 
 
 Example files are provided as examples for vegetation, burrow and transect data. 
